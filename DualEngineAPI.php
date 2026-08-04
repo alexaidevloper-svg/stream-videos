@@ -10,6 +10,8 @@
 
 // 1. SECURITY: DOMAIN LOCKING
 $ALLOWED_ORIGINS = [
+    'https://plix4uhub.blogspot.com',
+    'https://plix4uhub.blogspot.com/?m=1',
     'https://filmyzillamoviedownloadlink.blogspot.com',
     'https://bollyflixmoviedownload.blogspot.com',
     'https://vegamoviedownloadhd.blogspot.com',
