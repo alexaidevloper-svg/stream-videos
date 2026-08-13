@@ -12,12 +12,7 @@
 $ALLOWED_ORIGINS = [
     'https://plix4uhub.blogspot.com',
     'https://plix4uhub.blogspot.com/?m=1',
-    'https://filmyzillamoviedownloadlink.blogspot.com',
-    'https://bollyflixmoviedownload.blogspot.com',
-    'https://vegamoviedownloadhd.blogspot.com',
-    'https://hindidubbedmoviesdownloadhd.blogspot.com',
-    'https://khatrimazaorgmoviedownload.blogspot.com',
-    'https://filmy4webmoviesdownload.blogspot.com' // NEW DOMAIN ADDED
+    'https://doutslove.blogspot.com/?m=1' // NEW DOMAIN ADDED
 ];
 
 $origin = $_SERVER['HTTP_ORIGIN'] ?? '';
@@ -35,7 +30,7 @@ header('Content-Type: application/json');
 header('X-Robots-Tag: noindex, nofollow'); 
 
 // 2. CONFIGURATION
-define('TMDB_API_KEY', 'XXXXXXXX_XXXXXXX_XXX');
+define('TMDB_API_KEY', '8d18a96c8b2ac94df87550569dd5a66b');
 define('TMDB_BASE_URL', 'https://api.themoviedb.org/3');
 define('CACHE_PATH', __DIR__ . '/cache/');
 
