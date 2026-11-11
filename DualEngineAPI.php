@@ -10,8 +10,7 @@
 
 // 1. SECURITY: DOMAIN LOCKING
 $ALLOWED_ORIGINS = [
-    'https://plix4uhub.blogspot.com',
-    'https://plix4uhub.blogspot.com/?m=1',
+    'https://doutslove.blogspot.com/?m=1',
     'https://doutslove.blogspot.com/?m=1' // NEW DOMAIN ADDED
 ];
 
